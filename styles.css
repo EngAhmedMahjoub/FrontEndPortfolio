@@ -106,6 +106,7 @@ footer .info {
 #navbar ul li {
   list-style: none;
   width: 100%;
+  margin-right: 30px; 
 }
 
 #navbar ul :hover {
