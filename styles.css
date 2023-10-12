@@ -31,7 +31,7 @@ section {
 
 footer {
   height: 10vh;
-  background-color: rgb(100, 20, 90);
+  background: linear-gradient(rgb(40,130,60), rgb(100, 20, 90));
   color: #F1F2F3;
   display: flex;
   justify-content: space-evenly;
@@ -92,7 +92,7 @@ footer .info {
 
 
 #navbar {
-  background-color: #B641F0;
+  background: linear-gradient(rgb(160, 60, 200), rgb(40, 15, 90));
   display: flex;
   justify-content: flex-end;
 }
@@ -120,9 +120,8 @@ footer .info {
 
 #welcome-section {
   background: linear-gradient(
-              70deg,
-              rgb(12, 10, 140) 60%,
-              rgb(40, 15, 90)
+              rgb(40, 15, 90),
+              rgb(12, 10, 140) 60%
   );
   display: flex;
   flex-direction: column;
@@ -146,11 +145,10 @@ footer .info {
 
 #projects {
   background: linear-gradient(
-              70deg,
-              rgb(180, 90, 140) 60%,
+              rgb(12, 10, 140) 60%,
               rgb(200, 15, 90)
   );
-  color: #333;
+  color: #FEF5F6;
   font-weight: bold;
   height: auto;
   display: flex;
@@ -167,11 +165,10 @@ footer .info {
 
 #contact {
   background: linear-gradient(
-                90deg,
-              rgb(40,130,60),
-              rgb(50, 90, 40)
+              rgb(200, 15, 90),
+              rgb(40,130,60)
   );
-  color: #F1E2F5;
+  color: #FEF5F6;
   height: 80vh;
   display: flex;
   flex-direction: column;
