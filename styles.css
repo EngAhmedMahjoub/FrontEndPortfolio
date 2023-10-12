@@ -31,19 +31,21 @@ section {
 
 footer {
   height: 10vh;
-  background: linear-gradient(rgb(40,130,60), rgb(100, 20, 90));
+  background: linear-gradient(rgb(40,130,60) 10%, rgb(100, 20, 90));
   color: #F1F2F3;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-end;
 }
 
 footer .details {
   font-style: italic;
+  margin-bottom: 10px;
 }
 
 footer .info {
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .project-grid {
