@@ -31,8 +31,9 @@ section {
 
 footer {
   background-color: rgb(40,130,60);
-  border-top: 4px solid rgb(100, 20, 90);
+  background: rgb(20, 20, 90);
   color: #F1F2F3;
+  footer: 10vh
   display: flex;
   justify-content: space-evenly;
   align-items: center;
