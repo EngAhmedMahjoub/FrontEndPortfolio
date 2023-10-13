@@ -16,8 +16,9 @@ header {
   position: fixed;
   top: 0;
   left: 0;
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  display: block;
 }
 
 main {
@@ -30,8 +31,7 @@ section {
 }
 
 footer {
-  background-color: rgb(40,130,60);
-  background: rgb(20, 20, 90);
+  background-color: rgb(100, 20, 90);
   color: #F1F2F3;
   height: 10vh;
   display: flex;
@@ -96,7 +96,8 @@ footer .info {
 
 
 #navbar {
-  background: linear-gradient(rgb(160, 60, 200), rgb(40, 15, 90));
+  background-color: rgb(160, 60, 200);
+  width: 100%;
   display: flex;
   justify-content: flex-end;
 }
@@ -193,4 +194,4 @@ footer .info {
   .navbar{
     display: flex;
   }
-}
+}g
